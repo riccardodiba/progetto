@@ -39,8 +39,15 @@
 
 
                 }
+                int scelta = -1;
+                while (scelta != 0) {
+                        System.out.println("Inserisci l'indice dell'elemento da eseguire (1-5), oppure 0 per terminare:");
+                        scelta = scanner.nextInt();
+                        if (scelta >= 1 && scelta <= 5) {
+                                elementi[scelta - 1].esegui();
+                        }
+                }
                 scanner.close();
-
 
 
 
