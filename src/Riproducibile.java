@@ -1,5 +1,5 @@
 public interface Riproducibile {
     void play ();
-    void alzaVolume;
-    void abbassaVolume;
+    void alzaVolume();
+    void abbassaVolume();
 }
